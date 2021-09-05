@@ -1,4 +1,3 @@
-import { setGlobal } from 'jest-util';
 import React from 'react';
 import {
     View,
@@ -197,9 +196,9 @@ const SignIn = ({ navigation }) => {
                     }}
                     icon={icons.google}
                     iconPosition='LEFT'
-                    iconStyle={{
-                        tintColor: COLORS.red
-                    }}
+                    // iconStyle={{
+                    //     tintColor: COLORS.red
+                    // }}
                     label='Continue With Google'
                     labelStyle={{
                         marginLeft: SIZES.radius,
