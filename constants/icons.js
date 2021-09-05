@@ -13,6 +13,7 @@ const google = require("../assets/icons/google.png")
 const burger = require("../assets/icons/burger.png")
 const cherry = require("../assets/icons/cherry.png")
 const correct = require("../assets/icons/correct.png")
+const cancel = require("../assets/icons/cancel.png")
 const rice = require("../assets/icons/rice.png")
 const love = require("../assets/icons/love.png")
 const calories = require("../assets/icons/calories.png")
@@ -42,6 +43,7 @@ export default {
     burger,
     cherry,
     correct,
+    cancel,
     rice,
     love,
     calories,

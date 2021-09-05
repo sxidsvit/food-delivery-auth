@@ -5,7 +5,6 @@ import SplashScreen from 'react-native-splash-screen'
 
 import {
     OnBoarding,
-
     SignIn,
     SignUp,
     ForgotPassword,
@@ -15,7 +14,7 @@ import {
 const Stack = createStackNavigator();
 
 const App = () => {
-    
+
     React.useEffect(() => {
         SplashScreen.hide();
     }, [])
