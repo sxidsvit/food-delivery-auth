@@ -29,7 +29,6 @@ const SignIn = ({ navigation }) => {
         <AuthLayout
             title="Let's Sign You In"
             subtitle='Welcome back, you have been missed'
-        // titleContainerStyle={{ marginTop: 0 }}
         >
             <View
                 style={{
