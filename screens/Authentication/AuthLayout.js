@@ -1,12 +1,12 @@
 import React from 'react'
-import { View, Text, Image } from 'react-native'
+import { View, Text, Image, ScrollView } from 'react-native'
 import { images, FONTS, SIZES, COLORS } from '../../constants'
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view'
 
 const AuthLayout = ({ title, subtitle, titleContainerStyle, children }) => {
 
   return (
-    <View
+    <ScrollView
       style={{
         flex: 1,
         paddingVertical: SIZES.padding,
@@ -31,8 +31,8 @@ const AuthLayout = ({ title, subtitle, titleContainerStyle, children }) => {
             source={images.logo_02}
             resizeMode='contain'
             style={{
-              height: 100,
-              width: 200
+              height: 60,
+              width: 120
             }}
           />
         </View>
@@ -71,7 +71,7 @@ const AuthLayout = ({ title, subtitle, titleContainerStyle, children }) => {
       </KeyboardAwareScrollView>
 
 
-    </View>
+    </ScrollView>
   )
 }
 
